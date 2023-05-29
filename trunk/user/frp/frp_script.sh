@@ -10,9 +10,9 @@ mkdir -p /tmp/frp
 cat > "/tmp/frp/myfrpc.ini" <<-\EOF
 # ==========客户端配置：==========
 [common]
-server_addr = 1192.0.0.3
-server_port = 7000
-token = 12345
+server_addr = frp.freefrps.com
+ server_port = 7100
+ token = freefrps.com
 
 #log_file = /dev/null
 #log_level = info
