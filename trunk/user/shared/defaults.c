@@ -436,7 +436,7 @@ struct nvram_pair router_defaults[] = {
 	{ "ip6_wan_size", "64" },
 	{ "ip6_wan_gate", "" },
 
-	{ "ip6_dns_auto", "0" },
+	{ "ip6_dns_auto", "1" },
 	{ "ip6_dns1", "" },
 	{ "ip6_dns2", "" },
 	{ "ip6_dns3", "" },
@@ -1049,7 +1049,7 @@ struct nvram_pair router_defaults[] = {
 	{ "hw_nat_mode", "1" },
 	{ "sw_nat_mode", "0" },
 #if defined(USE_SFE)
-	{ "sfe_enable", "2" },
+	{ "sfe_enable", "0" },
 #endif
 	{ "fw_syn_cook", "0" },
 	{ "fw_mac_drop", "0" },
