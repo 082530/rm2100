@@ -23,7 +23,8 @@ remote_port = 6000
 type = http
 local_ip = 192.168.2.1
 local_port = 80
-subdomain = test
+custom_domains = ac2100.frp.freefrps.com
+subdomain = ac2100
 #host_header_rewrite = 实际你内网访问的域名，可以供公网的域名不一致，如果一致可以不写
 # ====================
 EOF
