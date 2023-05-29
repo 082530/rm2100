@@ -19,7 +19,7 @@ server_addr = frp.freefrps.com
 #log_max_days = 3
 
 [web]
-remote_port = 6000
+remote_port = 22
 type = http
 local_ip = 192.168.2.1
 local_port = 80
