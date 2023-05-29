@@ -37,8 +37,8 @@
 
 #define DEF_WLAN_2G_CC		"US"
 #define DEF_WLAN_5G_CC		"US"
-#define DEF_WLAN_2G_SSID	BOARD_PID "Xiaomi_AE14"
-#define DEF_WLAN_5G_SSID	BOARD_PID "Xiaomi_AE14_5G"
+#define DEF_WLAN_2G_SSID	"Xiaomi_AE14"
+#define DEF_WLAN_5G_SSID	"Xiaomi_AE14_5G"
 #define DEF_WLAN_2G_GSSID	"GUEST-2G"
 #define DEF_WLAN_5G_GSSID	"GUEST-5G"
 #define DEF_WLAN_2G_PSK		"hainabaicuan"
